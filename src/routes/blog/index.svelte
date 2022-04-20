@@ -1,4 +1,4 @@
-<script context="module">
+<script lnag="ts" context="module">
   /**
    * @type {import('@sveltejs/kit').Load}
    */
@@ -18,7 +18,7 @@
   }
 </script>
 
-<script>
+<script lnag="ts">
   export let posts;
 </script>
 
