@@ -2,7 +2,8 @@
   /**
    * @type {import('@sveltejs/kit').Load}
    */
-  export async function load({ fetch }) {
+  export const load = async ({ fetch }) => {
+    console.log('test!!!');
     const posts = await fetch('/api/posts.json');
     console.log('posts ==>', posts);
 
