@@ -1,3 +1,4 @@
+import { join } from 'path';
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
@@ -13,7 +14,7 @@ const config = {
 		mdsvex({
 			extensions: ['.md'],
 			layout: {
-				blog: 'src/routes/blog/_post.svelte'
+				blog: join(process.cwd(), 'src/routes/blog/_post.svelte'),
 			}
 		})
 	],
