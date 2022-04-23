@@ -5,9 +5,9 @@
   export const load = async ({ fetch }) => {
     console.log('test!!!');
     const posts = await fetch('/api/posts.json');
-    console.log('posts ==>', posts);
-
     const allPosts = await posts.json();
+
+    console.log('appPosts', allPosts);
 
     return {
       status: 200,
