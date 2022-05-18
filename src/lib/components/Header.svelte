@@ -1,5 +1,6 @@
 <style>
-  header {
+  /* @todo phase1 header */
+  /* header {
     padding: 1rem;
     background: lightskyblue;
     display: flex;
@@ -17,11 +18,21 @@
   a {
     text-decoration: none;
     color: inherit;
+  } */
+
+  /* phase2 */
+  .header {
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: white;
   }
 </style>
 
-<header>
-  <a href="/">Home</a>
+<header class="header">
+  <h2>Blog test</h2>
+  <!-- @todo phase1 -->
+  <!-- <a href="/">Home</a>
 
   <nav>
     <ul>
@@ -32,5 +43,5 @@
         <a href="/about">About</a>
       </li>
     </ul>
-  </nav>
+  </nav> -->
 </header>
