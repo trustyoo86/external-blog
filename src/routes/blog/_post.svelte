@@ -4,6 +4,7 @@
   export let categories;
 </script>
 
+<!-- phase1 -->
 {#if categories.length}
   <aside>
     <h2>Posted in:</h2>
@@ -18,6 +19,8 @@
     </ul>
   </aside>
 {/if}
+
+
 
 <h1>{title}</h1>
 
